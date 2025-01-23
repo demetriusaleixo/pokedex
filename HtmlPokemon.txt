@@ -1,0 +1,15 @@
+<li class="pokemon">
+                <div class="identificador">
+                    <span class="numero">#001</span>
+                    <span class="nome">Bulbasaur</span>
+                </div>
+
+                <div class="detalhes">
+                    <div class="tipos">
+                        <span class="tipo">Grass</span>
+                        <span class="tipo">Poison</span>
+                    </div>
+
+                    <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/1.svg" alt="Bulbasaur">
+                </div>
+            </li>

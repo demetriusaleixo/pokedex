@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+:root {
+    --branco: #ffffff;
+    --cinza: #f6f8fc;
+    --preto: #00000071;
+    --trasparente: #ffffff44;
+
+    --normal: #a6a877;
+    --grama: #49d0b0;
+    --fogo: #ee7f30;
+    --agua: #678fee;
+    --eletrico: #f7cf2e;
+    --gelo: #98d5d7;
+    --terrestre: #dfbf69;
+    --voador: #a98ff0;
+    --venenoso: #a040a0;
+    --lutador: #bf3029;
+    --psiquico: #f65687;
+    --sombrio: #725847;
+    --pedra: #b8a137;
+    --inseto: #a8b720;
+    --fantasma: #6e5896;
+    --aco: #b9b7cf;
+    --dragao: #6f38f6;
+    --fada: #f9aec7;
+}
+
+body {
+    background-color: var(--cinza);
+}
+
+.content {
+    padding: 1rem;
+    background-color: var(--branco);
+    height: 100vh;
+}
