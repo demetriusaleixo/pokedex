@@ -24,7 +24,7 @@ const tipos = {
 };
 
 function definirCorDeFundo(tipoPrincipal) {
-    const cor = tipos[tipoPrincipal] || "#FFFFFF";
+    const cor = tipos[tipoPrincipal];
     const pokemon = document.querySelector('.pokemon');
     pokemon.style.backgroundColor = cor;
 }
@@ -74,6 +74,6 @@ document.addEventListener('DOMContentLoaded', () => {
         carregarIdentificadorPokemon(pokemon);
         carregarStatus(pokemon);
     } else {
-        console.error('Número do Pokémon não fornecido!');
+        console.error('ERRO! Número de pokemon não recebido!');
     }
 });
